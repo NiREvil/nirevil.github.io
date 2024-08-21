@@ -1,36 +1,29 @@
-# Welcome to Jekyll!
+# Welcome Dude
 #
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
 # Theme Settings
 #
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-# theme                  : "minimal-mistakes-jekyll"
-# remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "REvil"
+title                    : "FREEDOM TO DREAM"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "NiREvil"
 description              : "v2ray Subscriptions for free"
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://nirevil.github.io/  # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "NiREvil/nirevil.github.io"  # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
-enable_copy_code_button  : # true, false (default)
+enable_copy_code_button  : true  # true, false (default)
 copyright                : # "copyright" name, defaults to site.title
 copyright_url            : # "copyright" URL, defaults to site.url
 comments:
@@ -57,8 +50,8 @@ comments:
     strict               : # 1 for enabled, 0 for disabled (default)
     input_position       : # "top", "bottom" # The comment input box will be placed above or below the comments
     emit_metadata        : # 1 for enabled, 0 for disabled (default) # https://github.com/giscus/giscus/blob/main/ADVANCED-USAGE.md#imetadatamessage
-    lang                 : # "en" (default)
-    lazy                 : # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
+    lang                 : "en"  # "en" (default)
+    lazy                 : true  # true, false # Loading of the comments will be deferred until the user scrolls near the comments container.
   staticman:
     branch               : # "master"
     endpoint             : # "https://{your Staticman v3 API}/v3/entry/github/"
@@ -69,7 +62,7 @@ atom_feed:
   path                   : # blank (default) uses feed.xml
   hide                   : # true, false (default)
 search                   : true
-search_full_content      : # true, false (default)
+search_full_content      : true  # true, false (default)
 search_provider          : # lunr (default), algolia, google
 lunr:
   search_within_pages    : true
@@ -80,7 +73,7 @@ algolia:
   powered_by             : true
 google:
   search_engine_id       : "2248d14d57b474e18"
-  instant_search         : # false (default), true
+  instant_search         : true  # false (default), true
   
 # SEO Related
 google_site_verification :
@@ -91,7 +84,7 @@ baidu_site_verification  :
 
 # Social Sharing
 twitter:
-  username               : NiREvil_
+  username               :
 facebook:
   username               :
   app_id                 :
@@ -124,7 +117,7 @@ author:
   avatar           : "assets/images/bio-photo.jpg"
   bio              : "Hello guy's, I'm NiREvil, I may be slow to respond."
   location         : "Somewhere"
-  email            :
+  email            : "mailto:nirevil2020@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
