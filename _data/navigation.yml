@@ -2,10 +2,10 @@
 main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
+  - title: "TG Pin"
+    url: https://t.me/F_NiREvil/5967
+  - title: "Sub-links"
+    url: https://github.com/NiREvil/vless?tab=readme-ov-file#table-of-contents
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
